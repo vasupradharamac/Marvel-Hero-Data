@@ -47,7 +47,7 @@ class Provider:
         print("Found in "+ str(time.process_time()-stTime))
         
         if data != None:
-            return data['data']['results']
+            return data['data']['results'
         else:
             return []
 
