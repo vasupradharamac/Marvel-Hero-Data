@@ -26,3 +26,7 @@ class Provider:
         reqHash = hashlib.md5(stringToHash.encode()).hexdigest()
         params = {'ts': str(ts), 'apikey': str(publicKey), 'hash': str(reqHash)}
         return params
+
+    def generateHash(self):
+        ts = datetime.now().time()
+        return self.generateHashManual(puKey=publicKey, prKey= privateKey, ts=ts)
