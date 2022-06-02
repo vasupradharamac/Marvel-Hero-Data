@@ -35,4 +35,14 @@ def doPagination(data, itemsPerPage=10):
             offset = min(offset+itemsPerPage, maxEntries-itemsPerPage)
         elif choice == "p":
             offset = max(offset-itemsPerPage, 0)
+
+if __name__ == "__main__":
+    while(True):
+        print("*"*20+"Main Menu"+"*"*20)
+        print("Enter query: ", end="")
+        query=input()
+        provider.registerCreds(prKey=privateKey, puKey=publicKey)
+        heroes = provider.getCharacters(query)
+        print("Found "+ str(len(heroes))+ " matching marvel heroes")
+        doPagination(heroes)
          
