@@ -9,7 +9,8 @@ This code has been pushed to replit.com, which enables users to **test the app e
 link to replit: (https://replit.com/@vasupradharamac/Marvel-Hero-Data#main.py)
 
 <h4>Replit Image: </h4>
-![Replit image](http://url/to/img.png](https://github.com/vasupradharamac/Marvel-Hero-Data/blob/main/images/replit%20image.png)
+
+![Replit image](https://github.com/vasupradharamac/Marvel-Hero-Data/blob/main/images/replit%20image.png)
 
   <h4> Ways to run this application: (on console)</h4>
   
