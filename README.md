@@ -2,9 +2,11 @@
 
 <h4> This is a REPL (Read-Evaluate-Print-Loop) application, which uses the API data of Marvel Cinematic Universe to fetch data based on user query </h4>
 
-<h6> The API keys have been mentioned in the application directly just for the sake of testing.</h6>
+<h5> The API keys have been mentioned in the application directly just for the sake of testing.</h5>
 
 This code has been pushed to replit.com, which enables users to test the app easily.
+
+link to replit: (https://replit.com/@vasupradharamac/Marvel-Hero-Data#main.py)
 
   <h4> Ways to run this application: (on console)</h4>
   
