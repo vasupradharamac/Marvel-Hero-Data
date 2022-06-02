@@ -4,7 +4,7 @@
 
 <h5> The API keys have been mentioned in the application directly just for the sake of testing.</h5>
 
-This code has been pushed to replit.com, which enables users to test the app easily.
+This code has been pushed to replit.com, which enables users to <bold>test the app easily</bold>.
 
 link to replit: (https://replit.com/@vasupradharamac/Marvel-Hero-Data#main.py)
 
