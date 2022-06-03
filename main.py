@@ -36,6 +36,7 @@ def doPagination(data, itemsPerPage=10):
             offset = min(offset+itemsPerPage, maxEntries-itemsPerPage)
         elif choice == "p":
             offset = max(offset-itemsPerPage, 0)
+    
 
 if __name__ == "__main__":
     while(True):
