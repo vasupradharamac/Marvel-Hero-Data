@@ -9,9 +9,9 @@
   3) Enter any query to get the results. Eg, enter ```iron``` to get results on Iron Man, Iron Clad, etc...
   4) While selecting choices (X, N, P) for exiting query or moving to next and previous pages respectively, make sure to enter the character and press ```enter``` on the console.
 
-* This REPL app shows results in a paginated format based on the quantity of the available and relevat results.
+* This REPL app shows results in a paginated format based on the quantity of the available and relevant results.
 
-* The app can take in multiple values without refreshing itself everytime a new query has been made.
+* The app can take in multiple values without refreshing itself every time a new query has been made.
 
 * All possible unit test cases have been covered for this application in the unitTest.py file.
 
@@ -29,6 +29,6 @@
 
 <h3> API Authentication: </h3>
 
-To access the Marvel API data, the users have to get API keys and generate a md5 hash of timestamp, publicKey and private key.
+To access the Marvel API data, the users have to get API keys and generate an md5 hash of timestamp, publicKey and private key.
 
 In this app, the  ```hashlib``` library has been used to generate the md5 hash value of the timestamp and keys.
