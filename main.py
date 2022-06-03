@@ -46,7 +46,7 @@ def paginate(data,itemsPerPage=10):
         opNeeded=True
         while(opNeeded):
             print("X-> close results, N-> next page ,P-> Previous page")
-            choice=detectPress()
+            choice=detectPress().lower()
             if choice=="x":
                 notClosed=False
             elif choice=="n":
