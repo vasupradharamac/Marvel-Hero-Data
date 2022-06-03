@@ -8,6 +8,10 @@ This code has been pushed to replit.com, which enables users to **test the app e
 
 link to replit: (https://replit.com/@vasupradharamac/Marvel-Hero-Data#main.py)
 
+<h4>Replit Image: </h4>
+
+![Replit image](https://github.com/vasupradharamac/Marvel-Hero-Data/blob/main/images/replit%20image.png)
+
   <h4> Ways to run this application: (on console)</h4>
   
   1) Install the requirements using ```pip install -r requirements.txt```
@@ -22,3 +26,11 @@ link to replit: (https://replit.com/@vasupradharamac/Marvel-Hero-Data#main.py)
 * Caching has been enabled for the API layer to reduce the workload of the overall application.
 
 <h3> Images of the application </h3>
+
+<h4> Image-1 </h4>
+
+![Image - 1](https://github.com/vasupradharamac/Marvel-Hero-Data/blob/main/images/Terminal%201.png)
+
+<h4> Image-2 </h4>
+
+![Image - 2](https://github.com/vasupradharamac/Marvel-Hero-Data/blob/main/images/Terminal%202.png)
