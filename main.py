@@ -16,7 +16,7 @@ def detectPress():
         return str(event.key)[1]
 
 
-def doPagination(data,itemsPerPage=10):
+def paginate(data,itemsPerPage=10):
     notClosed=True
     offset=0
     endPage=itemsPerPage
@@ -82,7 +82,7 @@ if __name__ == '__main__':
         provider.registerCreds(prKey=privateKey,puKey=publicKey)
         heroes=provider.getResults(query)
         print("Found "+str(len(heroes))+" matching marvel heroes")
-        doPagination(heroes)
+        paginate(heroes)
 
 
 
