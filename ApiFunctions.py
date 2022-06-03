@@ -1,6 +1,3 @@
-# using global variables for testing
-# we can easily implement storeCreds as a DB function
-
 publicKey=None
 privateKey=None
 baseUrl="http://gateway.marvel.com/v1/public"

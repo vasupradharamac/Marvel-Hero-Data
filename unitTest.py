@@ -10,7 +10,7 @@ class TestClass(unittest.TestCase):
         self.assertEqual(publicKey,"dumPvKey","Public Key store error")
 
     def test_hash_generation(self):
-        provider.registerCreds("af62d9215a85043fdfd1fc1a53a48334","c1bffc25b2605412fe272d32e235575225847127")
+        provider.registerCreds("e04fd41c572564f6ffe36dbfe1173aa3","1c5e17de2e5c9f28d7559cd35541c6c6b8a30a02")
         params=provider.generateHashManual(publicKey,privateKey,1)
         print(publicKey,privateKey)
         toHash="1"+privateKey+publicKey
