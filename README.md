@@ -2,17 +2,7 @@
 
 <h4> This is a REPL (Read-Evaluate-Print-Loop) application, which uses the API data of Marvel Cinematic Universe to fetch data based on user query </h4>
 
-<h5> Note: The API keys have been mentioned in the application directly just for the sake of testing.</h5>
-
-This code has been pushed to replit.com, which enables users to **test the app easily**.
-
-link to replit: (https://replit.com/@vasupradharamac/Marvel-Hero-Data#main.py)
-
-<h4>Replit Image: </h4>
-
-![Replit image](https://github.com/vasupradharamac/Marvel-Hero-Data/blob/main/images/replit%20image.png)
-
-  <h4> Ways to run this application: (on console)</h4>
+  <h4> How to run this application: (on console)</h4>
   
   1) Install the requirements using ```pip install -r requirements.txt```
   2) Then, run ```python3 main.py```
@@ -34,3 +24,9 @@ link to replit: (https://replit.com/@vasupradharamac/Marvel-Hero-Data#main.py)
 <h4> Image-2 </h4>
 
 ![Image - 2](https://github.com/vasupradharamac/Marvel-Hero-Data/blob/main/images/Terminal%202.png)
+
+<h3> API Authentication: </h3>
+
+To access the Marvel API data, the users have to get API keys and generate a md5 hash of timestamp, publicKey and private key.
+
+In this app, the  ```hashlib``` library has been used to generate the md5 hash value of the timestamp and keys.
