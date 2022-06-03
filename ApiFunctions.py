@@ -62,13 +62,13 @@ class Provider:
         storeCreds(prKey,puKey)
 
     def getResults(self,query):
-        stTime=time.clock()
+        stTime=time.process_time()
         if query in self.cacheDict:
-            print("Found in "+str(time.clock()-stTime))
+            print("Found in "+str(time.process_time()-stTime))
             return self.cacheDict[query]
         else:
             res=self.getCharacters(query)
-            print("Found in "+str(time.clock()-stTime))
+            print("Found in "+str(time.process_time()-stTime))
             self.cacheDict[query]=res
             return res
 
