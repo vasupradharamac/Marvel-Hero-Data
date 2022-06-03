@@ -6,7 +6,7 @@
   
   1) Install the requirements using ```pip install -r requirements.txt```
   2) Then, run ```python3 main.py```
-  3) While selecting choices (X, N, P) for exiting query, moving to next and previous pages respectively, make sure to enter the characters and press ```enter``` on the console.
+  3) While selecting choices (X, N, P) for exiting query or moving to next and previous pages respectively, make sure to enter the character and press ```enter``` on the console.
 
 * This REPL app shows results in a paginated format based on the quantity of the available and relevat results.
 
