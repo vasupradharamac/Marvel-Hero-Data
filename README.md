@@ -15,7 +15,7 @@
 
 * All possible unit test cases have been covered for this application in the unitTest.py file.
 
-* Caching has been enabled for the API layer to reduce the workload of the overall application.
+* <h5>Caching has been enabled for the API layer to reduce the workload of the overall application.</h5>
 
 <h3> Images of the application </h3>
 
