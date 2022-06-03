@@ -42,7 +42,7 @@ def paginate(data,itemsPerPage=10):
                 print(f"{indentSpace} Description : "+hero['description'][:100])
             print("*"*100)
             print("\n")
-        # choice=input("X-> close results, N-> next page ,P-> Previous page")
+ 
         opNeeded=True
         while(opNeeded):
             print("X-> close results, N-> next page ,P-> Previous page")
@@ -66,8 +66,6 @@ def paginate(data,itemsPerPage=10):
 
         endPage=min(offset+itemsPerPage,maxEntries)
         print(endPage,offset)
-
-
 
 
 if __name__ == '__main__':
