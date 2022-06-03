@@ -27,7 +27,7 @@ def doPagination(data, itemsPerPage=10):
                 print("Description: " +hero['description'][:50])
             print("*"*10)
         print("X -> Close results, N -> Next page, P -> Previous page")
-        choice = detectPress()
+        choice = input()
 
         if choice == "x":
             notClosed=False
