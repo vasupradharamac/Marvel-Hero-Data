@@ -14,7 +14,6 @@ def storeCreds(prKey,puKey):
 import hashlib
 from datetime import datetime
 import time
-# from requests import get,put
 import requests_cache
 
 session=requests_cache.CachedSession('cacheData')
